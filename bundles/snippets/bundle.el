@@ -26,5 +26,6 @@
 (setq yas/root-directory (list cabbage-snippets--default-directory
                                (concat cabbage-repository "bundles/snippets/")))
 (yas/initialize)
+(yas/global-mode)
 
 (add-hook 'cabbage-initialized-hook 'cabbage-snippets--load-snippets)

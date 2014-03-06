@@ -42,6 +42,6 @@
   (cabbage-load-bundle bundle))
 
 ;; TODO: load this earlier and debug the weird error
-(load (concat cabbage-repository "lib/themes"))
+;; (load (concat cabbage-repository "lib/themes"))
 
 (run-hooks 'cabbage-initialized-hook)
