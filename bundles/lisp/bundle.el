@@ -6,5 +6,4 @@
   (cabbage--set-pairs '("(" "{" "[" "\"")))
 
 ;; Emacs Lisp
-(add-hook 'emacs-lisp-mode-hook 'turn-on-eldoc-mode)
 (add-hook 'emacs-lisp-mode-hook 'cabbage-lisp-set-pairs)
