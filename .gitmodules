@@ -65,7 +65,7 @@
 
 [submodule "vendor/textmate"]
 	path = vendor/textmate
-	url = https://github.com/defunkt/textmate.el.git
+	url = https://github.com/weiqiyiji/textmate.el.git
 	ignore = untracked
 
 [submodule "vendor/sass-mode"]
