@@ -26,7 +26,8 @@
 (load (concat cabbage-repository "lib/bundles/framework"))
 (load (concat cabbage-repository "lib/defun"))
 (load (concat cabbage-repository "lib/setup"))
-;; (load (concat cabbage-repository "lib/perspective"))
+(if (version< emacs-version "24.4")
+    (load (concat cabbage-repository "lib/perspective")))
 (load (concat cabbage-repository "lib/compilation"))
 (load (concat cabbage-repository "lib/modes"))
 
